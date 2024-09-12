@@ -3,7 +3,7 @@ import {Star} from "lucide-react";
 
 const Hero = () => {
     return <>
-        <div className="flex justify-between items-center">
+        <div className="flex justify-between h-fit items-center">
             <div className="w-1/2 m-12">
                 <div className="flex items-center gap-4">
                     <div className="border w-10"></div>

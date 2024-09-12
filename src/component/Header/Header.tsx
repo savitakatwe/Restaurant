@@ -10,7 +10,7 @@ const Header = () => {
     }
     return <>
         <header
-            className="header  flex flex-wrap w-full justify-between sticky top-0 items-center p-5 border-b border-gray-300 ">
+            className="header  flex flex-wrap justify-between sticky top-0 items-center p-5 border-b border-gray-300 mx-12  ">
             <div className="flex gap-2 items-center">
                 <img src={logo} alt="logo"/>
                 <p className="text-purple-primary font-bold">eatly</p>
