@@ -1,4 +1,5 @@
 import HeroFoodImage from "../../assets/HeroFoodImage.png"
+import {Star} from "lucide-react";
 
 const Hero = () => {
     return <>
@@ -19,13 +20,27 @@ const Hero = () => {
                     days early. Get a $20 bonus.</p>
                 <div className={'flex gap-4'}>
                     <button
-                        className="p-3 font-semibold bg-purple-primary border-solid border rounded-2xl text-white text-base	">Get
+                        className="p-3  bg-purple-primary border-solid border rounded-2xl text-white text-base	">Get
                         Started
                     </button>
                     <button
-                        className="p-3 font-semibold bg-white border-solid border border-purple-primary rounded-2xl text-purple-primary text-base	">Go
+                        className="p-3  bg-white border-solid border border-purple-primary rounded-2xl text-purple-primary text-base	">Go
                         Pro
                     </button>
+                </div>
+                <div className={'flex gap-4 my-8'}>
+                    <Star className={'fill-green-600 border-green-600'}/>
+                    <p>TrustPilot</p>
+                    <div className={'flex'}>
+                        <Star className={'fill-amber-500 border-red-600'}/>
+                        <Star className={'fill-amber-500 border-red-600'}/>
+                        <Star className={'fill-amber-500 border-red-600'}/>
+                        <Star className={'fill-amber-500 border-red-600'}/>
+                        <Star className={'fill-amber-500 border-red-600'}/>
+                    </div>
+
+
+                    <p className={"text-dark-secondary"}>4900+</p>
                 </div>
             </div>
             <div className={"m-12"}>
