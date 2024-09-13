@@ -1,6 +1,5 @@
-import {Header, Menu, Hero, HeroDivider, Home, TopRestaurants} from "./component";
+import {Header, Menu, Hero, HeroDivider, Home, TopRestaurants, TopDishes} from "./component";
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
-import TopDishes from "./component/TopDishes";
 
 
 function App() {

@@ -1,4 +1,8 @@
 const DishCard = () => {
-    return <></>
-}
+  return (
+    <>
+      <div></div>
+    </>
+  );
+};
 export default DishCard;
