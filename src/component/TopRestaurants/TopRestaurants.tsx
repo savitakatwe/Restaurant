@@ -42,7 +42,7 @@ const TopRestaurants = () => {
 
         <div
           className={
-            "flex flex-row justify-end md:mr-16 mr-10 items-center  gap-2"
+            "flex flex-row justify-end md:mr-16 mr-10 items-center gap-2"
           }
         >
           <p className={"text-xl text-gray-primary"}>view all </p>
