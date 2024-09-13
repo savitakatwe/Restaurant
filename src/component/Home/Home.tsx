@@ -4,14 +4,14 @@ import {ArrowRight} from "lucide-react";
 
 const Home = () => {
     return <>
-        <div className={"flex flex-col md:flex-row justify-between h-fit md:m-12"}>
-            <div>
+        <div className={"flex flex-col md:flex-row justify-between md:m-12 "}>
+            <div className={"flex justify-center md:w-1/2 items-center"}>
                 <img src={MobileRestaurantPic} alt={"MobileRestaurantPic"}/>
             </div>
-            <div className={"w-3/4 md:w-1/2 m-5 md:m-12 justify-center"}>
-                <p className={"text-4xl md:text-7xl font-semibold"}>Premium <span
+            <div className={"w-3/4 md:w-1/2  m-5 md:m-12 justify-center "}>
+                <p className={"text-4xl md:text-7xl font-semibold md:pb-10"}>Premium <span
                     className={"text-purple-primary"}>Quality </span><br/>For Your Health</p>
-                <ul className={"list-disc"}>
+                <ul className={"flex flex-col list-disc gap-4"}>
                     <li className={"text-dark-tertiary"}>Premium quality food is made with ingredients that <br/> are
                         packed with essential
                         vitamins,
@@ -22,9 +22,9 @@ const Home = () => {
                     </li>
                 </ul>
                 <button
-                    className="p-5 bg-purple-primary font-medium flex gap-2 flex-row border-solid border rounded-2xl text-white text-base">Download <ArrowRight/>
+                    className="p-5 md:mt-10 bg-purple-primary font-medium flex gap-2 flex-row border-solid border rounded-2xl text-white text-base">Download <ArrowRight/>
                 </button>
-                <img src={CurlPointer} alt={CurlPointer}/>
+                <img className={"md:ml-32"} src={CurlPointer} alt={CurlPointer}/>
             </div>
 
         </div>
