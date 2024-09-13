@@ -3,13 +3,14 @@ import {Star} from "lucide-react";
 
 const Hero = () => {
     return <>
-        <div className="flex justify-between h-fit items-center">
+        <div className="flex flex-col md:flex-row justify-between h-fit items-center">
             <div className="w-1/2 m-12">
                 <div className="flex items-center gap-4">
                     <div className="border w-10"></div>
                     <p className="text-sm text-gray-400">OVER 1000 USERS</p>
                 </div>
-                <div className={"my-5"}><p className="text-7xl text-dark-primary font-semibold">Enjoy Foods All</p>
+                <div className={"my-5"}><p className="text-3xl md:text-7xl text-dark-primary font-semibold">Enjoy Foods
+                    All</p>
                     <p className="text-7xl text-dark-primary font-semibold">Over The<span
                         className="text-purple-primary"> World</span>
                     </p>
