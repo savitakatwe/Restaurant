@@ -4,7 +4,7 @@ import {ArrowRight} from "lucide-react";
 
 const Home = () => {
     return <>
-        <div className={"flex flex-col md:flex-row"}>
+        <div className={"flex flex-col md:flex-row justify-between h-fit md:m-12"}>
             <div>
                 <img src={MobileRestaurantPic} alt={"MobileRestaurantPic"}/>
             </div>

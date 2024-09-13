@@ -4,7 +4,7 @@ import StarIcon from "../../assets/StarIcon.svg"
 
 const Hero = () => {
     return <>
-        <div className="flex flex-col md:flex-row justify-center md:justify-between h-fit w-full items-center">
+        <div className="flex flex-col md:flex-row justify-center md:justify-between h-fit  items-center mt-28">
             <div className="w-3/4 md:w-1/2 m-5 md:m-12 justify-center">
                 <div className="flex justify-center  md:justify-start items-center gap-4">
                     <div className="border w-10"></div>
@@ -59,7 +59,7 @@ const Hero = () => {
 
 
             </div>
-            <div className={"m-12"}>
+            <div className={"flex justify-center items-center    w-3/4"}>
                 <img src={HeroFoodImage} alt={'HeroFoodImage'}/>
             </div>
         </div>
