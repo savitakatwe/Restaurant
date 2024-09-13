@@ -1,6 +1,5 @@
-import {Header, Menu} from "./component";
+import {Header, Menu, Hero, HeroDivider} from "./component";
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
-import Hero from "./component/Hero/Hero.tsx";
 
 
 function App() {
@@ -14,6 +13,7 @@ function App() {
                 {/* Add other routes here */}
             </Routes>
             <Hero/>
+            <HeroDivider/>
         </Router>
 
     )

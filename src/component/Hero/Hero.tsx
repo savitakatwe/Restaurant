@@ -1,5 +1,6 @@
 import HeroFoodImage from "../../assets/HeroFoodImage.png"
-import {Star} from "lucide-react";
+import GreenStar from "../../assets/Vector.svg"
+import StarIcon from "../../assets/StarIcon.svg"
 
 const Hero = () => {
     return <>
@@ -41,14 +42,16 @@ const Hero = () => {
                     </button>
                 </div>
                 <div className="flex flex-row justify-center md:justify-start items-center gap-4 my-8">
-                    <Star className="fill-green-600 w-6 h-6 md:w-8 md:h-8"/> {/* Adjust size */}
+                    <img src={GreenStar} alt={'GreenStar'}/>
+
                     <p className="text-sm md:text-base">TrustPilot</p>
+
                     <div className="flex gap-1">
-                        <Star className="fill-amber-500 w-5 h-5 md:w-6 md:h-6 border-none"/> {/* Removed border */}
-                        <Star className="fill-amber-500 w-5 h-5 md:w-6 md:h-6"/> {/* Removed border */}
-                        <Star className="fill-amber-500 w-5 h-5 md:w-6 md:h-6"/> {/* Removed border */}
-                        <Star className="fill-amber-500 w-5 h-5 md:w-6 md:h-6"/> {/* Removed border */}
-                        <Star className="fill-amber-500 w-5 h-5 md:w-6 md:h-6"/> {/* Removed border */}
+                        <img src={StarIcon} alt={'StarIcon'}/>
+                        <img src={StarIcon} alt={'StarIcon'}/>
+                        <img src={StarIcon} alt={'StarIcon'}/>
+                        <img src={StarIcon} alt={'StarIcon'}/>
+                        <img src={StarIcon} alt={'StarIcon'}/>
                     </div>
                     <p className="text-sm md:text-base text-dark-secondary">4900+</p>
                 </div>
