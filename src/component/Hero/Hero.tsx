@@ -28,8 +28,9 @@ const Hero = () => {
 
                 </div>
                 <p className="text-dark-tertiary text-center md:text-left text-lg my-5">
-                    EatLy helps you set saving goals, earn cash back offers, go to the disclaimer for more details, and
-                    get paychecks up to two days early. Get a $20 bonus.
+                    EatLy helps you set saving goals, earn cash back offers, go<br/> to the disclaimer for more details,
+                    and
+                    get paychecks up to two<br/> days early. Get a $20 bonus.
                 </p>
                 <div className={'flex gap-4 justify-center md:justify-start'}>
                     <button
