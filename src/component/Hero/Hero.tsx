@@ -4,12 +4,12 @@ import {Star} from "lucide-react";
 const Hero = () => {
     return <>
         <div className="flex flex-col md:flex-row justify-center md:justify-between h-fit w-full items-center">
-            <div className="w-1/2 m-5 md:m-12 justify-center">
-                <div className="flex items-center gap-4">
+            <div className="w-3/4 md:w-1/2 m-5 md:m-12 justify-center">
+                <div className="flex justify-center  md:justify-start items-center gap-4">
                     <div className="border w-10"></div>
                     <p className="text-sm text-gray-400">OVER 1000 USERS</p>
                 </div>
-                <div className={"my-5 "}>
+                <div className={"my-5  "}>
                     {/*mobile view text*/}
                     <p className="text-4xl sm:hidden text-center text-dark-primary font-semibold">
                         Enjoy Food
@@ -30,7 +30,7 @@ const Hero = () => {
                     EatLy helps you set saving goals, earn cash back offers, go to the disclaimer for more details, and
                     get paychecks up to two days early. Get a $20 bonus.
                 </p>
-                <div className={'flex gap-4'}>
+                <div className={'flex gap-4 justify-center md:justify-start'}>
                     <button
                         className="p-3  bg-purple-primary border-solid border rounded-2xl text-white text-base	">Get
                         Started
@@ -40,20 +40,20 @@ const Hero = () => {
                         Pro
                     </button>
                 </div>
-                {/*<div className={'flex gap-4 my-8'}>*/}
-                {/*    <Star className={'fill-green-600 border-green-600'}/>*/}
-                {/*    <p>TrustPilot</p>*/}
-                {/*    <div className={'flex'}>*/}
-                {/*        <Star className={'fill-amber-500 border-red-600'}/>*/}
-                {/*        <Star className={'fill-amber-500 border-red-600'}/>*/}
-                {/*        <Star className={'fill-amber-500 border-red-600'}/>*/}
-                {/*        <Star className={'fill-amber-500 border-red-600'}/>*/}
-                {/*        <Star className={'fill-amber-500 border-red-600'}/>*/}
-                {/*    </div>*/}
+                <div className="flex flex-row justify-center md:justify-start items-center gap-4 my-8">
+                    <Star className="fill-green-600 w-6 h-6 md:w-8 md:h-8"/> {/* Adjust size */}
+                    <p className="text-sm md:text-base">TrustPilot</p>
+                    <div className="flex gap-1">
+                        <Star className="fill-amber-500 w-5 h-5 md:w-6 md:h-6 border-none"/> {/* Removed border */}
+                        <Star className="fill-amber-500 w-5 h-5 md:w-6 md:h-6"/> {/* Removed border */}
+                        <Star className="fill-amber-500 w-5 h-5 md:w-6 md:h-6"/> {/* Removed border */}
+                        <Star className="fill-amber-500 w-5 h-5 md:w-6 md:h-6"/> {/* Removed border */}
+                        <Star className="fill-amber-500 w-5 h-5 md:w-6 md:h-6"/> {/* Removed border */}
+                    </div>
+                    <p className="text-sm md:text-base text-dark-secondary">4900+</p>
+                </div>
 
 
-                {/*    <p className={"text-dark-secondary"}>4900+</p>*/}
-                {/*</div>*/}
             </div>
             <div className={"m-12"}>
                 <img src={HeroFoodImage} alt={'HeroFoodImage'}/>
