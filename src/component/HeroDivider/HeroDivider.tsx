@@ -7,11 +7,14 @@ const HeroDivider = () => {
                 <p className={"flex text-sm text-purple-secondary items-center justify-center"}>Satisfied Costumers
                     All Great Over The World </p>
             </div>
-
+            <div className={"  border md:h-28 border-gray-primary "}/>
+            <div className={"md:hidden border w-44 border-gray-primary "}/>
             <div className="flex flex-col justify-center items-center gap-4">
                 <p className={"text-5xl text-white font-bold"}>4M</p>
                 <p className={"text-sm text-purple-secondary"}>Healthy Dishes Sold Including Milk Shakes Smooth </p>
             </div>
+            <div className={"  border md:h-28 border-gray-primary "}/>
+            <div className={"md:hidden border w-44 border-gray-primary "}/>
             <div className="flex flex-col justify-center items-center gap-4">
                 <p className={"text-5xl text-white font-bold"}>99.99%</p>
                 <p className={"text-sm text-purple-secondary"}>Reliable Customer Support We Provide Great

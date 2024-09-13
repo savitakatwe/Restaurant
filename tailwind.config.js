@@ -12,6 +12,7 @@ export default {
                 'dark-primary': '#201F1F',
                 'dark-secondary': '#606060',
                 'dark-tertiary': '#676767',
+                'gray-primary': '#C5C5C5',
             }
         },
     },
