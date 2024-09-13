@@ -9,6 +9,7 @@ export default {
             colors: {
                 'purple-primary': '#6C5FBC',
                 'purple-secondary': '#C5BFED',
+                'dark-black': '#323142',
                 'dark-primary': '#201F1F',
                 'dark-secondary': '#606060',
                 'dark-tertiary': '#676767',

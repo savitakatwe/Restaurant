@@ -33,7 +33,7 @@ const Home = () => {
             </div>
 
         </div>
-        <div className={'border border-solid mx-16 '}></div>
+        <div className={'border border-solid md:mx-16 mx-6 my-8'}></div>
     </>
 }
 export default Home;
