@@ -1,5 +1,6 @@
 import {Header, Menu, Hero, HeroDivider, Home, TopRestaurants} from "./component";
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import TopDishes from "./component/TopDishes";
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
             <HeroDivider/>
             <Home/>
             <TopRestaurants/>
+            <TopDishes/>
         </Router>
 
     )

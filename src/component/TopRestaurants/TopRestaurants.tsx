@@ -1,7 +1,7 @@
-import RestaurantCard from "../RestaurantCard/RestaurantCard.tsx";
 import ChickenImage from "../../assets/ChickenImage.png"
 import BurgerImage from "../../assets/BurgerImage.png"
 import {ArrowRight} from "lucide-react";
+import {RestaurantCard} from "../index.ts";
 
 const TopRestaurants = () => {
     return <>
@@ -29,6 +29,7 @@ const TopRestaurants = () => {
 
             </div>
         </div>
+        <div className={'border border-solid md:mx-16 mx-6 my-8'}></div>
 
     </>
 }
