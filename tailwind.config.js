@@ -13,6 +13,9 @@ export default {
                 'dark-secondary': '#606060',
                 'dark-tertiary': '#676767',
                 'gray-primary': '#C5C5C5',
+                'gray-secondary': '#DBD9EE',
+                'yellow-primary': '#DAA31A',
+                'yellow-secondary': '#F7EDD0',
             }
         },
     },

@@ -29,9 +29,11 @@ const Home = () => {
 
                 <img className={"md:ml-32 md:rotate-0 rotate-90 mt-16 md:mt-0 mb-10 md:mb-0"} src={CurlPointer}
                      alt={CurlPointer}/>
+
             </div>
 
         </div>
+        <div className={'border border-solid mx-16 '}></div>
     </>
 }
 export default Home;

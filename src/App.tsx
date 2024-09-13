@@ -1,4 +1,4 @@
-import {Header, Menu, Hero, HeroDivider, Home} from "./component";
+import {Header, Menu, Hero, HeroDivider, Home, TopRestaurants} from "./component";
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
 
@@ -15,6 +15,7 @@ function App() {
             <Hero/>
             <HeroDivider/>
             <Home/>
+            <TopRestaurants/>
         </Router>
 
     )
