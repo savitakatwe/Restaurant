@@ -54,7 +54,6 @@ const DishCard = ({
               ${price}
               <span className={"text-lg text-gray-primary"}>.99</span>
             </p>
-
             <img src={AddButtonIcon} alt={AddButtonIcon} />
           </div>
         </div>
