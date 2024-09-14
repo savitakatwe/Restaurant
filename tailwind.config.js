@@ -15,8 +15,11 @@ export default {
                 'dark-tertiary': '#676767',
                 'gray-primary': '#C5C5C5',
                 'gray-secondary': '#DBD9EE',
+                'gray-tertiary': '#EAEAEA',
+                'gray-tertiary2': '#818181',
                 'yellow-primary': '#DAA31A',
                 'yellow-secondary': '#F7EDD0',
+                'gray-tertiary3': '#999999',
             },
             backgroundImage: {
                 'hero-pattern': "url('/MaskGroupFull.png')",

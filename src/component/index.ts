@@ -10,3 +10,4 @@ export { default as DishCard } from "./DishCard";
 export { default as ControlPurchase } from "./ControlPurchase";
 export { default as DishControlCard } from "./DishControlCard";
 export { default as DiscountCard } from "./DiscountCard";
+export { default as Footer } from "./Footer";

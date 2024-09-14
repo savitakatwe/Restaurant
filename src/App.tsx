@@ -8,6 +8,7 @@ import {
   TopDishes,
   ControlPurchase,
   DiscountCard,
+  Footer,
 } from "./component";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
@@ -26,6 +27,7 @@ function App() {
       <TopDishes />
       <ControlPurchase />
       <DiscountCard />
+      <Footer />
     </Router>
   );
 }
