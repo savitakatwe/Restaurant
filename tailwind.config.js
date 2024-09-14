@@ -17,6 +17,9 @@ export default {
                 'gray-secondary': '#DBD9EE',
                 'yellow-primary': '#DAA31A',
                 'yellow-secondary': '#F7EDD0',
+            },
+            backgroundImage: {
+                'hero-pattern': "url('/MaskGroupFull.png')",
             }
         },
     },
