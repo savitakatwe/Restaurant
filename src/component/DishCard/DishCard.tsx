@@ -24,7 +24,7 @@ const DishCard = ({
     <>
       <div
         className={
-          "h-fit w-fit border border-solid shadow-sm rounded-3xl overflow-hidden p-4"
+          "h-fit w-fit border-none  shadow-2xl rounded-3xl overflow-hidden p-4"
         }
       >
         <div className={"flex flex-row"}>
