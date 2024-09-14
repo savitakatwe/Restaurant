@@ -28,9 +28,7 @@ const Footer = () => {
         </div>
       </div>
       <div
-        className={
-          "border border-solid border-gray-tertiary3 md:my-8 mx-4 my-5"
-        }
+        className={"border border-solid border-gray-tertiary3 md:my-8  my-5"}
       />
       <div
         className={
