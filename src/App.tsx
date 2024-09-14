@@ -7,6 +7,7 @@ import {
   TopRestaurants,
   TopDishes,
   ControlPurchase,
+  DiscountCard,
 } from "./component";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
@@ -24,6 +25,7 @@ function App() {
       <TopRestaurants />
       <TopDishes />
       <ControlPurchase />
+      <DiscountCard />
     </Router>
   );
 }
